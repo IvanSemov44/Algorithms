@@ -18,10 +18,14 @@ namespace AlgorithmsFundamentals
             //02. Recursive Drawing
             //RecursiveDrawing.DrawFigure();
 
+            //03. Generating 0/1 Vectors
+            //Generating01Vectors.Generate01();
+
             //4. Recursive Factorial
             //RecursiveFactorial.FactorialRecursively();
 
-        }
 
+
+        }
     }
 }
