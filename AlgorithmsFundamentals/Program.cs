@@ -1,6 +1,7 @@
 ﻿using RecurtionAndBackTracking;
 
 using System;
+using System.Collections.Generic;
 
 namespace AlgorithmsFundamentals
 {
@@ -24,6 +25,8 @@ namespace AlgorithmsFundamentals
             //4. Recursive Factorial
             //RecursiveFactorial.FactorialRecursively();
 
+            //5.Find All Paths in a Labyrinth
+            //FindAllPathsInALabyrinth.FindPaths();
 
 
         }
