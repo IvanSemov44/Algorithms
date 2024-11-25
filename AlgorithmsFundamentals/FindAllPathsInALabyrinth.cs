@@ -1,37 +1,33 @@
-﻿using System.Collections.Generic;
-using System.Diagnostics.Metrics;
-
-namespace RecurtionAndBackTracking
+﻿namespace RecurtionAndBackTracking
 {
+    // You are given a labyrinth.Your goal is to find all paths from the start(cell 0, 0) to the exit, marked with 'e'. 
+    //• Empty cells are marked with a dash '-'.
+    //• Walls are marked with a star '*'.
+    //On the first line, you will receive the dimensions of the labyrinth.Next, you will receive the actual labyrinth.
+    //The order of the paths does not matter.
+
+    //Examples
+
+    //Input      Output
+
+    //3          RRDD
+    //3          DDRR
+    //---
+    //-*-
+    //--e
+
+    //Input      Output
+
+    //3          DRRRRU
+    //5          DRRRUR
+    //-**-e
+    //-----
+    //*****
+    //DRRRRU
+    //DRRRUR
+
     internal static class FindAllPathsInALabyrinth
     {
-
-        // You are given a labyrinth.Your goal is to find all paths from the start(cell 0, 0) to the exit, marked with 'e'. 
-        //• Empty cells are marked with a dash '-'.
-        //• Walls are marked with a star '*'.
-        //On the first line, you will receive the dimensions of the labyrinth.Next, you will receive the actual labyrinth.
-        //The order of the paths does not matter.
-
-        //Examples
-
-        //Input      Output
-
-        //3          RRDD
-        //3          DDRR
-        //---
-        //-*-
-        //--e
-
-        //Input      Output
-
-        //3          DRRRRU
-        //5          DRRRUR
-        //-**-e
-        //-----
-        //*****
-        //DRRRRU
-        //DRRRUR
-
         internal static void FindPaths()
         {
             var rows = int.Parse(Console.ReadLine());

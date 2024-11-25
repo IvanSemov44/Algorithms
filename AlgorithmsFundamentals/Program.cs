@@ -28,7 +28,8 @@ namespace AlgorithmsFundamentals
             //5.Find All Paths in a Labyrinth
             //FindAllPathsInALabyrinth.FindPaths();
 
-
+            //6.Eight Queens Puzzle
+            //EightQueensPuzzle.Queen();
         }
     }
 }
