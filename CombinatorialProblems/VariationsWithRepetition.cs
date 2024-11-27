@@ -1,28 +1,31 @@
 ﻿namespace CombinatorialProblems
 {
-    //3. Variations without Repetitions
-    //Given a set of elements, find all variations of k elements without repetitions.
+
+    //    4. Variations with Repetition
+    //Given a set of elements, find all variations of k elements with repetitions.
 
     //Examples
 
-    //Input:
+    //Input
     //A B C
     //2
 
-    //Output:
+    //Output
+    //A A
     //A B
     //A C
     //B A
+    //B B
     //B C
     //C A
     //C B
+    //C C
 
-    internal class VariationsWithoutRepetition
+    internal class VariationsWithRepetition
     {
         private static int k;
         private static string[] elements;
         private static string[] variations;
-        private static bool[] used;
 
         public static void Solution()
         {
@@ -32,7 +35,6 @@
             //k = int.Parse(Console.ReadLine());
 
             variations = new string[k];
-            used = new bool[elements.Length];
 
             Variations(0);
         }
@@ -47,13 +49,8 @@
 
             for (int i = 0; i < elements.Length; i++)
             {
-                if (!used[i])
-                {
-                    used[i] = true;
                     variations[idx] = elements[i];
                     Variations(idx + 1);
-                    used[i] = false;
-                }
             }
         }
     }
