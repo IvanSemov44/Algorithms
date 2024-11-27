@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace CombinatorialProblems
 {
     //Problems Description here: https://judge.softuni.org/Contests/Practice/DownloadResource/33716
@@ -7,7 +9,10 @@ namespace CombinatorialProblems
         static void Main(string[] args)
         {
             //1.Permutations without Repetitions
-            PermutationsWithoutRepetition.Solution();
+            //PermutationsWithoutRepetition.Solution();
+            //PermutationsWithoutRepetitionWithUsingExtraMemory.Solution();
+
         }
+       
     }
 }

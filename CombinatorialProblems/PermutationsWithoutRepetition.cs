@@ -1,6 +1,5 @@
 ﻿namespace CombinatorialProblems
 {
-
     //1. Permutations without Repetitions
     //Given a set of elements, find all permutations without repetitions.
 
@@ -27,7 +26,8 @@
 
         public static void Solution()
         {
-            elements = new[] { "A", "B", "C" };
+            //elements = new[] { "A", "B", "C" };
+            elements = new[] { "A", "B" };
             permutations = new string[elements.Length];
             used = new bool[elements.Length];
 
