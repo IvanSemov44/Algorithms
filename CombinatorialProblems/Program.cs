@@ -8,10 +8,6 @@ namespace CombinatorialProblems
     //Problems Description here: https://judge.softuni.org/Contests/Practice/DownloadResource/33716
     internal class Program
     {
-        private static int k;
-        private static string[] elements;
-        private static string[] variations;
-
         static void Main(string[] args)
         {
             //1. Permutations without Repetitions
@@ -27,34 +23,14 @@ namespace CombinatorialProblems
             //4. Variations with Repetition
             //VariationsWithRepetition.Solution();
 
-            //elements = new[] { "A", "B", "C" };
-            //k = 2;
-
-            //5. Combinations without Repetition
+            // 5. Combinations without Repetition
             //CombinationsWithoutRepetition.Solution();
 
-            //elements = Console.ReadLine().Split();
-            //k = int.Parse(Console.ReadLine());
+            //6. Combinations with Repetition
+            //CombinationsWithRepetition.Solution();
 
-            variations = new string[k];
-
-            Combinations(0, 0);
-
+            //7. N Choose K Count
+            //NChooseKCount.Solution();
         }
-        private static void Combinations(int idx, int elementsStartIdx)
-        {
-            if (idx >= variations.Length)
-            {
-                Console.WriteLine(string.Join(" ", variations));
-                return;
-            }
-
-            for (int i = elementsStartIdx; i < elements.Length; i++)
-            {
-                variations[idx] = elements[i];
-                Combinations(idx + 1, i + 1);
-            }
-        }
-
     }
 }
