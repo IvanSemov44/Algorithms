@@ -1,9 +1,4 @@
-﻿using RecurtionAndBackTracking;
-
-using System;
-using System.Collections.Generic;
-
-namespace AlgorithmsFundamentals
+﻿namespace AlgorithmsFundamentals
 {
     // Problems Description here:  https://judge.softuni.org/Contests/Practice/DownloadResource/33715
     internal class Program
