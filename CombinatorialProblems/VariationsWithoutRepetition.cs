@@ -1,26 +1,42 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection.Metadata;
+using System.Runtime.Intrinsics.X86;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace CombinatorialProblems
 {
-    //Problems Description here: https://judge.softuni.org/Contests/Practice/DownloadResource/33716
-    internal class Program
+    //    3. Variations without Repetitions
+    //Given a set of elements, find all variations of k elements without repetitions.
+
+    //Examples
+
+    //Input:
+    //A B C
+    //2
+
+    //Output:
+    //A B
+    //A C
+    //B A
+    //B C
+    //C A
+    //C B
+
+    internal class VariationsWithoutRepetition
     {
         private static int k;
         private static string[] elements;
         private static string[] variations;
         private static bool[] used;
 
-        static void Main(string[] args)
+        public static void Solution()
         {
-            //1.Permutations without Repetitions
-            //PermutationsWithoutRepetition.Solution();
-            //PermutationsWithoutRepetitionWithUsingExtraMemory.Solution();
-
-            //2. Permutations with Repetitions
-            //PermutationsWithRepetition.Solution();
-
+            //elements = new[] { "A", "B", "B" };
+            //k = 2;
             elements = Console.ReadLine().Split();
             k = int.Parse(Console.ReadLine());
 
@@ -29,7 +45,6 @@ namespace CombinatorialProblems
 
             Variations(0);
         }
-
         private static void Variations(int idx)
         {
             if (idx >= variations.Length)
@@ -45,7 +60,7 @@ namespace CombinatorialProblems
                     used[i] = true;
                     variations[idx] = elements[i];
                     Variations(idx + 1);
-                    used[i]=false;
+                    used[i] = false;
                 }
             }
         }
