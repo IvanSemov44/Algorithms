@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Reflection.PortableExecutable;
 using System.Linq;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Exercise_RecursionAndCombinatorialProblems
 {
@@ -19,6 +19,11 @@ namespace Exercise_RecursionAndCombinatorialProblems
             //3. Connected Areas in a Matrix
             //ConnectedAreasInAMatrix.Solution();
 
+            //4. Cinema
+            //Cinema.Solution();
+
+
         }
+
     }
 }
