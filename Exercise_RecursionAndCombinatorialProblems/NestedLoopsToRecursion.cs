@@ -32,7 +32,7 @@
     //3 3 2
     //3 3 3
 
-    internal class NestedLoopsToRecursion
+    internal static class NestedLoopsToRecursion
     {
         private static int[] arr;
         public static void Solution()
