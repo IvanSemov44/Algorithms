@@ -1,33 +1,16 @@
-﻿namespace RecurtionAndBackTracking
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercise_RecursionAndCombinatorialProblems
 {
-    // You are given a labyrinth.Your goal is to find all paths from the start(cell 0, 0) to the exit, marked with 'e'. 
-    //• Empty cells are marked with a dash '-'.
-    //• Walls are marked with a star '*'.
-    //On the first line, you will receive the dimensions of the labyrinth.Next, you will receive the actual labyrinth.
-    //The order of the paths does not matter.
-
-    //Examples
-
-    //Input      Output
-
-    //3          RRDD
-    //3          DDRR
-    //---
-    //-*-
-    //--e
-
-    //Input      Output
-
-    //3          DRRRRU
-    //5          DRRRUR
-    //-**-e
-    //-----
-    //*****
-
-    internal static class FindAllPathsInALabyrinth
+    internal static class ConnectedAreasInAMatrix
     {
-        internal static void FindPaths()
+        public static void Solution()
         {
+            Console.WriteLine("Hello");
             var rows = int.Parse(Console.ReadLine());
             var cols = int.Parse(Console.ReadLine());
 
@@ -41,7 +24,6 @@
                     lab[i, j] = colElements[j];
                 }
             }
-            Console.WriteLine(string.Join(" ", lab[0,1]));
             FindPaths(lab, 0, 0, new List<string>(), string.Empty);
         }
 
@@ -53,6 +35,7 @@
             // Checks for walls оr already visited cells
             if (lab[row, col] == '*' || lab[row, col] == 'v') return;
 
+            //size
             directions.Add(direction);
 
             // Check for end
