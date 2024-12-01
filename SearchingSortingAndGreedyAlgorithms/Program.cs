@@ -21,19 +21,22 @@ namespace SearchingSortingAndGreedyAlgorithms
 
             //5. Quicksort
             //Quicksort.Solution();
+            
+            //6. Merge Sort
+            //MergeSort.Solution();
+
+            //var numbers = Console.ReadLine()
+            //    .Split()
+            //    .Select(int.Parse)
+            //    .ToArray();
+
+            //var sorted = MergeSort(numbers);
 
 
-            var numbers = Console.ReadLine()
-                .Split()
-                .Select(int.Parse)
-                .ToArray();
-
-            //int[] numbers = { 5, 4, 3, 2, 1, };
-
-
-            Console.WriteLine(string.Join(" ", numbers));
+            //Console.WriteLine(string.Join(" ", sorted));
         }
 
+        
 
         private static void Swap(int[] numbers, int first, int second)
         {
@@ -41,6 +44,5 @@ namespace SearchingSortingAndGreedyAlgorithms
             numbers[first] = numbers[second];
             numbers[second] = temp;
         }
-
     }
 }
