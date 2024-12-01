@@ -7,6 +7,8 @@ namespace SearchingSortingAndGreedyAlgorithms
         Input            Output              Comments
         1 2 3 4 5        1                   0
         -1 0 1 2 4       1                   2
+        1
+        2 Index of 1 is 2
      */
     internal static class BinarySearchX
     {
@@ -16,7 +18,9 @@ namespace SearchingSortingAndGreedyAlgorithms
                .Split()
                .Select(x => int.Parse(x))
                .ToArray();
+
             int num = int.Parse(Console.ReadLine());
+
             Console.WriteLine(BinarySearch(nums, num));
         }
 
