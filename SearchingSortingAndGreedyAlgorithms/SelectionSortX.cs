@@ -9,8 +9,8 @@ namespace SearchingSortingAndGreedyAlgorithms
         Output
         • You should print out the sorted list in the format described below.
         Examples
-        Input            Output
-        5 4 3 2 1           1 2 3 4 5
+        Input               Output
+        5 4 3 2 1           1 2 3 4 3
          */
 
         public static void Solution()

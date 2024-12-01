@@ -19,18 +19,21 @@ namespace SearchingSortingAndGreedyAlgorithms
             //4.Insertion Sort
             //InsertionSortX.Solution();
 
+            //5. Quicksort
+            //Quicksort.Solution();
 
-            //var numbers = Console.ReadLine()
-            //    .Split()
-            //    .Select(int.Parse)
-            //    .ToArray();
 
-            ////int[] numbers = { 5, 4, 3, 2, 1, };
+            var numbers = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToArray();
 
-            //InsertionSort(numbers);
+            //int[] numbers = { 5, 4, 3, 2, 1, };
 
-            //Console.WriteLine(string.Join(" ", numbers));
+
+            Console.WriteLine(string.Join(" ", numbers));
         }
+
 
         private static void Swap(int[] numbers, int first, int second)
         {
