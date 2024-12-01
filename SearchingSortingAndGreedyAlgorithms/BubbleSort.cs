@@ -15,6 +15,16 @@ namespace SearchingSortingAndGreedyAlgorithms
     */
     internal class BubbleSort
     {
+        /*
+         * 3. Bubble Sort
+        Write an implementation of Bubble Sort. You should read an array of integers and sort them.
+        Output
+        • You should print out the sorted list in the format described below.
+        Examples
+        Input            Output
+        5 4 3 2 1        1 2 3 4 5
+         */
+
         public static void Solution()
         {
             int[] nums = Console.ReadLine()
@@ -23,8 +33,6 @@ namespace SearchingSortingAndGreedyAlgorithms
                .ToArray();
 
             int num = int.Parse(Console.ReadLine());
-
-            BubleSort(nums);
 
             Console.WriteLine(string.Join(" ", nums));
         }

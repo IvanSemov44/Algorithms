@@ -16,44 +16,28 @@ namespace SearchingSortingAndGreedyAlgorithms
             //3. Bubble Sort 
             //BubbleSort.Solution();
 
-            var numbers = Console.ReadLine()
-                .Split()
-                .Select(int.Parse)
-                .ToArray();
+            //4.Insertion Sort
+            //InsertionSortX.Solution();
 
-            //int[] numbers = { 5, 4, 3, 2, 1, };
 
-            BubleSort(numbers);
+            //var numbers = Console.ReadLine()
+            //    .Split()
+            //    .Select(int.Parse)
+            //    .ToArray();
 
-            Console.WriteLine(string.Join(" ", numbers));
-        }
+            ////int[] numbers = { 5, 4, 3, 2, 1, };
 
-        private static void BubleSort(int[] numbers)
-        {
-            var sortedCount = 0;
-            var isSorted = false;
-            while (!isSorted)
-            {
-                isSorted = true;
-                for (int j = 1; j < numbers.Length-sortedCount; j++)
-                {
-                    int i = j - 1;
+            //InsertionSort(numbers);
 
-                    if(numbers[i] > numbers[j])
-                    {
-                        Swap(numbers, i, j);
-                        isSorted = false;
-                    }
-                }
-                sortedCount++;
-            }
+            //Console.WriteLine(string.Join(" ", numbers));
         }
 
         private static void Swap(int[] numbers, int first, int second)
         {
-            int temp = numbers[first];  
+            int temp = numbers[first];
             numbers[first] = numbers[second];
             numbers[second] = temp;
         }
+
     }
 }
