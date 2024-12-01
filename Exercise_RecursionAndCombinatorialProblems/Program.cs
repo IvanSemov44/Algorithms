@@ -21,9 +21,6 @@ namespace Exercise_RecursionAndCombinatorialProblems
 
             //4. Cinema
             //Cinema.Solution();
-
-
         }
-
     }
 }
