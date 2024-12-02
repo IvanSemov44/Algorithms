@@ -1,12 +1,12 @@
-﻿
-namespace GraphTheoryTraversalAndShortest
+﻿namespace GraphTheoryTraversalAndShortest
 {
-    internal class Program
+    //Depth-First-Search
+    internal class DFSInAction
     {
         private static Dictionary<int, List<int>> graph;
         private static HashSet<int> visited;
 
-        static void Main(string[] args)
+        public static void Solution()
         {
             graph = new Dictionary<int, List<int>>()
             {
@@ -24,7 +24,6 @@ namespace GraphTheoryTraversalAndShortest
             visited = new HashSet<int>();
 
             foreach (var node in graph.Keys) Dfs(node);
-
         }
 
         private static void Dfs(int node)
