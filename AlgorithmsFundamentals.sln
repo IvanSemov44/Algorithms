@@ -5,13 +5,15 @@ VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecurtionAndBackTracking", "AlgorithmsFundamentals\RecurtionAndBackTracking.csproj", "{28245670-4951-4863-B3CD-D65F3C912EDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinatorialProblems", "CombinatorialProblems\CombinatorialProblems.csproj", "{4E507E9F-4088-4009-9218-E964F26C343B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinatorialProblems", "CombinatorialProblems\CombinatorialProblems.csproj", "{4E507E9F-4088-4009-9218-E964F26C343B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_RecursionAndCombinatorialProblems", "Exercise_RecursionAndCombinatorialProblems\Exercise_RecursionAndCombinatorialProblems.csproj", "{03534DEF-6853-46F7-9CA7-186586931C92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_RecursionAndCombinatorialProblems", "Exercise_RecursionAndCombinatorialProblems\Exercise_RecursionAndCombinatorialProblems.csproj", "{03534DEF-6853-46F7-9CA7-186586931C92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingSortingAndGreedyAlgorithms", "SearchingSortingAndGreedyAlgorithms\SearchingSortingAndGreedyAlgorithms.csproj", "{B3D956DF-B2BF-4A0E-9CA2-9758BEE342E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchingSortingAndGreedyAlgorithms", "SearchingSortingAndGreedyAlgorithms\SearchingSortingAndGreedyAlgorithms.csproj", "{B3D956DF-B2BF-4A0E-9CA2-9758BEE342E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphTheoryTraversalAndShortest", "GraphTheoryTraversalAndShortest\GraphTheoryTraversalAndShortest.csproj", "{96B5608A-49B9-4F00-B655-8C935C29C764}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphTheoryTraversalAndShortest", "GraphTheoryTraversalAndShortest\GraphTheoryTraversalAndShortest.csproj", "{96B5608A-49B9-4F00-B655-8C935C29C764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionsFromCodewars", "SolutionsFromCodewars\SolutionsFromCodewars.csproj", "{76310809-28FE-4085-BD38-34B704A966F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{96B5608A-49B9-4F00-B655-8C935C29C764}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96B5608A-49B9-4F00-B655-8C935C29C764}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96B5608A-49B9-4F00-B655-8C935C29C764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76310809-28FE-4085-BD38-34B704A966F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76310809-28FE-4085-BD38-34B704A966F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76310809-28FE-4085-BD38-34B704A966F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76310809-28FE-4085-BD38-34B704A966F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
