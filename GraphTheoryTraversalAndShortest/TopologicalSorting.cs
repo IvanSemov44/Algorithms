@@ -1,18 +1,15 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-
-namespace GraphTheoryTraversalAndShortest
+﻿namespace GraphTheoryTraversalAndShortest
 {
-    internal class Program
+    //https://judge.softuni.org/Contests/Practice/DownloadResource/33719
+    //2. Source Removal Topological Sorting
+
+    internal class TopologicalSorting
     {
         private static Dictionary<string, List<string>> graph;
         private static Dictionary<string, int> dependencies;
 
-        static void Main(string[] args)
+        public static void Solution()
         {
-            //ConnectedComponents.Solution();
-
             var n = int.Parse(Console.ReadLine());
 
             graph = ReadGraph(n);
@@ -34,8 +31,8 @@ namespace GraphTheoryTraversalAndShortest
                     dependencies[child] -= 1;
             }
 
-            if (dependencies.Count == 0 )
-                Console.WriteLine($"Topological sorting: {string.Join(", ", sorted)}" );
+            if (dependencies.Count == 0)
+                Console.WriteLine($"Topological sorting: {string.Join(", ", sorted)}");
             else
                 Console.WriteLine("Invalid topological sorting");
         }
@@ -69,7 +66,7 @@ namespace GraphTheoryTraversalAndShortest
             for (int i = 0; i < n; i++)
             {
                 var parts = Console.ReadLine()
-                    .Split("->",StringSplitOptions.RemoveEmptyEntries)
+                    .Split("->", StringSplitOptions.RemoveEmptyEntries)
                     .Select(e => e.Trim())
                     .ToArray();
 
