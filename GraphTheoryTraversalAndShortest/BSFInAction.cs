@@ -1,15 +1,11 @@
-﻿
-using System.Net.Quic;
-using System.Xml.Linq;
-
-namespace GraphTheoryTraversalAndShortest
+﻿namespace GraphTheoryTraversalAndShortest
 {
-    internal class Program
+    internal static class BSFInAction
     {
         private static Dictionary<int, List<int>> graph;
         private static HashSet<int> visited;
 
-        static void Main(string[] args)
+        public static void Solution()
         {
             graph = new Dictionary<int, List<int>>()
             {
@@ -53,7 +49,6 @@ namespace GraphTheoryTraversalAndShortest
                         queue.Enqueue(child);
                     }
                 }
-
             }
         }
     }
