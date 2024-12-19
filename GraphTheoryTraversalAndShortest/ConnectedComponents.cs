@@ -44,20 +44,45 @@
                 if (visited[node]) continue;
 
                 var component = new List<int>();
-                DSF(node, component);
+                DFS(node, component);
+                //BFS(node, component);
 
                 Console.WriteLine($"Connected component: {string.Join(" ", component)}");
             }
         }
 
-        private static void DSF(int node, List<int> component)
+        private static void BFS(int startNode, List<int> component)
+        {
+            var queue = new Queue<int>();
+
+            queue.Enqueue(startNode);
+            visited[startNode] = true;
+
+            while (queue.Count > 0)
+            {
+                var node  = queue.Dequeue();
+
+                component.Add(node);
+
+                foreach (var child in graph[node])
+                {
+                    if (!visited[child])
+                    {
+                        visited[child] = true;
+                        queue.Enqueue(child);
+                    }
+                }
+            }
+        }
+
+        private static void DFS(int node, List<int> component)
         {
             if (visited[node]) return;
 
             visited[node] = true;
 
             foreach (var child in graph[node])
-                DSF(child, component);
+                DFS(child, component);
 
             component.Add(node);
         }
