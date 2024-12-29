@@ -10,9 +10,13 @@ namespace Exercise_GraphTheoryTraversalAndShortestPaths
     {
         static void Main(string[] args)
         {
-            DistanceBetweenVertices.Solution();
+            //  1. Distance Between Vertices
+            //DistanceBetweenVertices.Solution();
+
+            //2. Areas in Matrix
+            //AreasInMatrix.Solution();
         }
 
-       
+
     }
 }
