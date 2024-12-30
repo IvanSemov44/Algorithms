@@ -16,9 +16,13 @@ namespace Exercise_GraphTheoryTraversalAndShortestPaths
 
             //2. Areas in Matrix
             //AreasInMatrix.Solution();
-            
+
             //3. Cycles in a Graph
             //CyclesInAGraph.Solution();
+
+            //4.Salaries
+            //Salaries.Solution();
         }
+
     }
 }
