@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System;
+using System.Security.Cryptography;
 
 namespace Exercise_GraphTheoryTraversalAndShortestPaths
 {
@@ -15,8 +16,9 @@ namespace Exercise_GraphTheoryTraversalAndShortestPaths
 
             //2. Areas in Matrix
             //AreasInMatrix.Solution();
+            
+            //3. Cycles in a Graph
+            //CyclesInAGraph.Solution();
         }
-
-
     }
 }
