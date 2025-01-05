@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphTheoryTraversalAndShor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionsFromCodewars", "SolutionsFromCodewars\SolutionsFromCodewars.csproj", "{76310809-28FE-4085-BD38-34B704A966F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_GraphTheoryTraversalAndShortestPaths", "Exercise_GraphTheoryTraversalAndShortestPaths\Exercise_GraphTheoryTraversalAndShortestPaths.csproj", "{739D51AE-0FDE-412F-9FEA-F7D2B89A2A6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_GraphTheoryTraversalAndShortestPaths", "Exercise_GraphTheoryTraversalAndShortestPaths\Exercise_GraphTheoryTraversalAndShortestPaths.csproj", "{739D51AE-0FDE-412F-9FEA-F7D2B89A2A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToDynamicProgramming", "IntroductionToDynamicProgramming\IntroductionToDynamicProgramming.csproj", "{7DCBEC11-2E4F-434C-A9BF-21AB5911C708}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{739D51AE-0FDE-412F-9FEA-F7D2B89A2A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{739D51AE-0FDE-412F-9FEA-F7D2B89A2A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{739D51AE-0FDE-412F-9FEA-F7D2B89A2A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DCBEC11-2E4F-434C-A9BF-21AB5911C708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCBEC11-2E4F-434C-A9BF-21AB5911C708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCBEC11-2E4F-434C-A9BF-21AB5911C708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCBEC11-2E4F-434C-A9BF-21AB5911C708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
