@@ -12,6 +12,9 @@ namespace IntroductionToDynamicProgramming
         {
             //1. Fibonacci
             //Fibonacci.Solution();
+
+            //SubsetSumNoRepeats
+            //SubsetSumNoRepeats.Solution();
         }
     }
 }
