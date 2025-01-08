@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_GraphTheoryTravers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToDynamicProgramming", "IntroductionToDynamicProgramming\IntroductionToDynamicProgramming.csproj", "{7DCBEC11-2E4F-434C-A9BF-21AB5911C708}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseIntroductionToDynamicProgramming", "ExerciseIntroductionToDynamicProgramming\ExerciseIntroductionToDynamicProgramming.csproj", "{6F36D1D8-B43B-4D31-9BEE-A24B10913CA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{7DCBEC11-2E4F-434C-A9BF-21AB5911C708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DCBEC11-2E4F-434C-A9BF-21AB5911C708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DCBEC11-2E4F-434C-A9BF-21AB5911C708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F36D1D8-B43B-4D31-9BEE-A24B10913CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F36D1D8-B43B-4D31-9BEE-A24B10913CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F36D1D8-B43B-4D31-9BEE-A24B10913CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F36D1D8-B43B-4D31-9BEE-A24B10913CA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
