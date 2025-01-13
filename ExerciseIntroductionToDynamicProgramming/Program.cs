@@ -12,6 +12,11 @@ namespace ExerciseIntroductionToDynamicProgramming
         {
             // 1.Binomial Coefficients
             //BinomialCoefficients.Solution();
+
+            //2. Dividing Presents
+            //DividingPresents.Solutoin();
+
         }
+
     }
 }

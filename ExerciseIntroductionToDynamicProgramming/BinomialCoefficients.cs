@@ -1,7 +1,7 @@
 ﻿
 namespace ExerciseIntroductionToDynamicProgramming
 {
-    /*
+    /*1. Binomial Coefficients
      Write a program that finds the binomial coefficient (n 𝑘) 
     for given non-negative integers n and k. The coefficient can 
     be found recursively
