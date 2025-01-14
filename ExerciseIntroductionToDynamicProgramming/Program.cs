@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System;
-using System.Drawing;
 
 namespace ExerciseIntroductionToDynamicProgramming
 {
@@ -25,6 +24,9 @@ namespace ExerciseIntroductionToDynamicProgramming
 
             //5.Word Differences
             //WordDifferences.Solution();
+
+            //6. Connecting Cables
+            //ConnectingCables.Solution();
         }
     }
 }
