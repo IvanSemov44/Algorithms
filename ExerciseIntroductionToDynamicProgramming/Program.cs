@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System;
+using System.Drawing;
 
 namespace ExerciseIntroductionToDynamicProgramming
 {
@@ -10,16 +11,18 @@ namespace ExerciseIntroductionToDynamicProgramming
 
         static void Main(string[] args)
         {
-            // 1.Binomial Coefficients
+            //1.Binomial Coefficients
             //BinomialCoefficients.Solution();
 
-            //2. Dividing Presents
+            //2.Dividing Presents
             //DividingPresents.Solutoin();
 
-            //3. Sum with Unlimited Amount of Coins
-            SumWithUnlimitedAmountOfCoins.Solution();
+            //3.Sum with Unlimited Amount of Coins
+            //SumWithUnlimitedAmountOfCoins.Solution();
+
+            //4.Sum with Limited Amount of Coins
+            //SumWithLimitedAmountOfCoins.Solution();
         }
 
-       
     }
 }
