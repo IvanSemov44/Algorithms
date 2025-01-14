@@ -27,6 +27,9 @@ namespace ExerciseIntroductionToDynamicProgramming
 
             //6. Connecting Cables
             //ConnectingCables.Solution();
+
+            //7. Minimum Edit Distance
+            //MinimumEditDistance.Solution();
         }
     }
 }
