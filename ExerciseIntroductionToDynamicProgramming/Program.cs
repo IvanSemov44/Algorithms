@@ -16,7 +16,10 @@ namespace ExerciseIntroductionToDynamicProgramming
             //2. Dividing Presents
             //DividingPresents.Solutoin();
 
+            //3. Sum with Unlimited Amount of Coins
+            SumWithUnlimitedAmountOfCoins.Solution();
         }
 
+       
     }
 }
