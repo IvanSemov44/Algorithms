@@ -22,7 +22,9 @@ namespace ExerciseIntroductionToDynamicProgramming
 
             //4.Sum with Limited Amount of Coins
             //SumWithLimitedAmountOfCoins.Solution();
-        }
 
+            //5.Word Differences
+            //WordDifferences.Solution();
+        }
     }
 }
