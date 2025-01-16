@@ -11,7 +11,11 @@ namespace ExamPreparation
         public static void Main(string[] args)
         {
             //01. Trains https://judge.softuni.org/Contests/Practice/DownloadResource/23684
-            Train.Solution();
+            //Train.Solution();
+
+            //02. Conditional Expression Resolver https://judge.softuni.org/Contests/Practice/DownloadResource/23538
+            //ConditionalExpressionResolver.Solution();
+
         }
     }
 }
