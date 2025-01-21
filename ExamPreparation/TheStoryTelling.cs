@@ -1,76 +1,46 @@
 ﻿namespace ExamPreparation
 {
-    internal  static class TheStoryTelling
+    internal static class TheStoryTelling
     {
         private static Dictionary<string, List<string>> graph;
-        private static Dictionary<string, int> dependencies;
+        private static HashSet<string> passedNodes;
 
         public static void Solution()
         {
             graph = ReadGraph();
-            dependencies = ExtractDependencies(graph);
-            var sorted = TopologicalSorted(dependencies);
+            passedNodes = new HashSet<string>();
 
-            Console.WriteLine(string.Join(" ", sorted));
+            foreach (string parentNode in graph.Keys)
+                DFSGraph(parentNode);
+
+            Console.WriteLine(string.Join(" ", passedNodes.Reverse()));
         }
 
-        private static List<string> TopologicalSorted(Dictionary<string, int> dependencies)
+        private static void DFSGraph(string parentNode)
         {
-            var sorted = new List<string>();
+            if (passedNodes.Contains(parentNode))
+                return;
 
-            while (dependencies.Count > 0)
-            {
-                var nodeToRemove = dependencies.FirstOrDefault(x => x.Value == 0).Key;
+            foreach (string childNode in graph[parentNode])
+                DFSGraph(childNode);
 
-                if (nodeToRemove == null)
-                    break;
-
-                dependencies.Remove(nodeToRemove);
-                sorted.Add(nodeToRemove);
-
-                foreach (var child in graph[nodeToRemove])
-                    dependencies[child] -= 1;
-            }
-
-            return sorted;
-        }
-
-        private static Dictionary<string, int> ExtractDependencies(Dictionary<string, List<string>> graph)
-        {
-            var result = new Dictionary<string, int>();
-
-            foreach (var kvp in graph)
-            {
-                var node = kvp.Key;
-                var children = kvp.Value;
-
-                if (!result.ContainsKey(node))
-                    result[node] = 0;
-
-                foreach (var child in children)
-                    if (!result.ContainsKey(child))
-                        result[child] = 1;
-                    else
-                        result[child]++;
-            }
-
-            return result;
+            passedNodes.Add(parentNode);
         }
 
         private static Dictionary<string, List<string>> ReadGraph()
         {
             var result = new Dictionary<string, List<string>>();
 
-            while (true)
+            string command;
+
+            while ((command = Console.ReadLine()) != "End")
             {
-                var parts = Console.ReadLine()
+                var parts = command
                     .Split("->", StringSplitOptions.RemoveEmptyEntries)
                     .Select(x => x.Trim())
                     .ToArray();
 
                 var key = parts[0];
-
-                if (key == "End") break;
 
                 if (parts.Length == 1)
                 {
