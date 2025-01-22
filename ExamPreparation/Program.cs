@@ -13,7 +13,7 @@
                 02. Conditional Expression Resolver https://judge.softuni.org/Contests/Practice/DownloadResource/23538
                 ConditionalExpressionResolver.Solution();
 
-                3. Guards https://judge.softuni.org/Contests/Practice/DownloadResource/23685
+                03. Guards https://judge.softuni.org/Contests/Practice/DownloadResource/23685
                 Guards.Solution();
             */
 
@@ -25,7 +25,7 @@
                 02. Two Minutes to Midnight https://judge.softuni.org/Contests/Practice/DownloadResource/11533
                 Time.Solution();
 
-                3. The Story Telling https://judge.softuni.org/Contests/Practice/DownloadResource/10141
+                03. The Story Telling https://judge.softuni.org/Contests/Practice/DownloadResource/10141
                 TheStoryTelling.Solution(); 
             */
 
@@ -34,11 +34,18 @@
                 01. Bitcoin Miners  https://softuni.bg/downloads/svn/Algorithms-with-Csharp/Algorithms-Fundamentals/May-2023/10.%20Exam/01.%20Bitcoin-Miners.docx
                 TwoMinutesToMidnight.Solution(); Same problem
 
-                2. Chainalysis https://softuni.bg/downloads/svn/Algorithms-with-Csharp/Algorithms-Fundamentals/May-2023/10.%20Exam/02.%20Chainalysis.docx
+                02. Chainalysis https://softuni.bg/downloads/svn/Algorithms-with-Csharp/Algorithms-Fundamentals/May-2023/10.%20Exam/02.%20Chainalysis.docx
                 Chainalysis.Solution();
 
-                3. Bitcoin Transactions https://softuni.bg/downloads/svn/Algorithms-with-Csharp/Algorithms-Fundamentals/May-2023/10.%20Exam/03.%20Bitcoin%20-Transactions.docx
+                03. Bitcoin Transactions https://softuni.bg/downloads/svn/Algorithms-with-Csharp/Algorithms-Fundamentals/May-2023/10.%20Exam/03.%20Bitcoin%20-Transactions.docx
                 BitcoinTransactions.Solution();
+             */
+
+            /*
+            Algorithms Fundamentals with C# Exam - 30 Jan 2022 https://judge.softuni.org/Contests/3379/Algorithms-Fundamentals-with-CSharp-Exam-30-Jan-2022
+                01. Strings Mashup https://judge.softuni.org/Contests/Practice/DownloadResource/19453
+                StringsMashup.Solution();
+
              */
         }
 
