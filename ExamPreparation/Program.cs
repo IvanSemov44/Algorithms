@@ -29,6 +29,17 @@
                 TheStoryTelling.Solution(); 
             */
 
+            /*
+             Algorithms Fundamentals with C# - Regular Exam - 01 July 2023  https://judge.softuni.org/Contests/Practice/Index/4003#0
+                01. Bitcoin Miners  https://softuni.bg/downloads/svn/Algorithms-with-Csharp/Algorithms-Fundamentals/May-2023/10.%20Exam/01.%20Bitcoin-Miners.docx
+                TwoMinutesToMidnight.Solution(); Same problem
+
+                2. Chainalysis https://softuni.bg/downloads/svn/Algorithms-with-Csharp/Algorithms-Fundamentals/May-2023/10.%20Exam/02.%20Chainalysis.docx
+                Chainalysis.Solution();
+
+                3. Bitcoin Transactions https://softuni.bg/downloads/svn/Algorithms-with-Csharp/Algorithms-Fundamentals/May-2023/10.%20Exam/03.%20Bitcoin%20-Transactions.docx
+                BitcoinTransactions.Solution();
+             */
         }
 
     }
