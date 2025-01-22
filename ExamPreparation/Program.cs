@@ -46,6 +46,9 @@
                 01. Strings Mashup https://judge.softuni.org/Contests/Practice/DownloadResource/19453
                 StringsMashup.Solution();
 
+                02. Rumors https://judge.softuni.org/Contests/Practice/DownloadResource/19454
+                Rumors.Solution();
+
              */
         }
 
