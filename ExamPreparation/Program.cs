@@ -58,8 +58,11 @@
                 01. Move Down / Right https://judge.softuni.org/Contests/Practice/DownloadResource/19350
                 MoveDownRight.Solution();
 
-             */
+                02. Universes https://judge.softuni.org/Contests/Practice/DownloadResource/19351
+                Universes.Solution();
 
+
+             */
         }
 
     }
