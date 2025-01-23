@@ -30,7 +30,7 @@ namespace CombinatorialProblems
             //CombinationsWithRepetition.Solution();
 
             //7. N Choose K Count
-            //NChooseKCount.Solution();
+            NChooseKCount.Solution();
         }
     }
 }

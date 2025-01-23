@@ -52,6 +52,14 @@
                 03. Bank Robbery https://judge.softuni.org/Contests/Practice/DownloadResource/19455
                 BankRobbery.Solution();
              */
+
+            /*
+             Algorithms Fundamentals with C# Exam - 23 Jan 2022 https://judge.softuni.org/Contests/3371/Algorithms-Fundamentals-with-CSharp-Exam-23-Jan-2022
+                01. Move Down / Right https://judge.softuni.org/Contests/Practice/DownloadResource/19350
+                MoveDownRight.Solution();
+
+             */
+
         }
 
     }
