@@ -49,6 +49,8 @@
                 02. Rumors https://judge.softuni.org/Contests/Practice/DownloadResource/19454
                 Rumors.Solution();
 
+                03. Bank Robbery https://judge.softuni.org/Contests/Practice/DownloadResource/19455
+                BankRobbery.Solution();
              */
         }
 
