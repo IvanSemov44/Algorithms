@@ -63,6 +63,8 @@
 
 
              */
+
+            Strings_Mashup2.Solution();
         }
 
     }
