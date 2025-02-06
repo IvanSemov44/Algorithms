@@ -1,11 +1,19 @@
-﻿
-namespace GraphsDijkstraMST
+﻿namespace GraphsDijkstraMST
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            DijkstraAlg.Solution();
+            //https://judge.softuni.org/Contests/Practice/DownloadResource/36963
+            
+            // DijkstraAlg.Solution();
+
+            // KruskalAlg.Solution();
+            
         }
+
+       
     }
+
+
 }
