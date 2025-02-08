@@ -7,6 +7,9 @@
             //https://judge.softuni.org/Contests/Practice/DownloadResource/36964
 
             //BellmanFord.Solution();
+
+            //LongestPath.Solution();
+            
         }
     }
 }
