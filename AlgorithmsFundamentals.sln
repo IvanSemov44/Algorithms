@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciseIntroductionToDynam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamPreparation", "ExamPreparation\ExamPreparation.csproj", "{329B2B43-C1B0-4E69-8C6C-E104F0C78F48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphsDijkstraMST", "GraphsDijkstraMST\GraphsDijkstraMST.csproj", "{385E79AA-C6C4-4584-8799-31D4293141A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphsDijkstraMST", "GraphsDijkstraMST\GraphsDijkstraMST.csproj", "{385E79AA-C6C4-4584-8799-31D4293141A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphsBellman-FordAndLongestPathinDAG", "GraphsBellman-FordAndLongestPathinDAG\GraphsBellman-FordAndLongestPathinDAG.csproj", "{B7F7B697-285A-4802-A47E-69C2D4339783}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{385E79AA-C6C4-4584-8799-31D4293141A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{385E79AA-C6C4-4584-8799-31D4293141A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{385E79AA-C6C4-4584-8799-31D4293141A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F7B697-285A-4802-A47E-69C2D4339783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F7B697-285A-4802-A47E-69C2D4339783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F7B697-285A-4802-A47E-69C2D4339783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F7B697-285A-4802-A47E-69C2D4339783}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

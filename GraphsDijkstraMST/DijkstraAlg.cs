@@ -61,6 +61,7 @@ namespace GraphsDijkstraMST
                     if (double.IsPositiveInfinity(distance[otherNode]))
                         bag.Add(otherNode);
 
+                    //relaxing step
                     var newDistance = distance[minNode] + edge.Weight;
 
                     if (newDistance < distance[otherNode])
