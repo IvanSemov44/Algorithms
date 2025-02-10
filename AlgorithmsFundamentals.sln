@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphsDijkstraMST", "Graphs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphsBellman-FordAndLongestPathinDAG", "GraphsBellman-FordAndLongestPathinDAG\GraphsBellman-FordAndLongestPathinDAG.csproj", "{B7F7B697-285A-4802-A47E-69C2D4339783}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseGraphsBellmanFordLongestPathInDAG", "ExerciseGraphsBellmanFordLongestPathInDAG\ExerciseGraphsBellmanFordLongestPathInDAG.csproj", "{0A63860B-1F10-4144-9DD2-937E933A96FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{B7F7B697-285A-4802-A47E-69C2D4339783}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7F7B697-285A-4802-A47E-69C2D4339783}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7F7B697-285A-4802-A47E-69C2D4339783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A63860B-1F10-4144-9DD2-937E933A96FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A63860B-1F10-4144-9DD2-937E933A96FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A63860B-1F10-4144-9DD2-937E933A96FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A63860B-1F10-4144-9DD2-937E933A96FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
