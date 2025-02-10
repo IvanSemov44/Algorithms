@@ -1,7 +1,5 @@
-﻿using Wintellect.PowerCollections;
-using System;
-using System.Linq;
-using System.Collections.Generic;
+﻿using System.Security;
+using Wintellect.PowerCollections;
 
 namespace ExerciseGraphsBellmanFordLongestPathInDAG
 {
@@ -13,14 +11,9 @@ namespace ExerciseGraphsBellmanFordLongestPathInDAG
             //MostReliablePath.Solution();
 
             //CheapTownTour.Solution();
-        }
 
-        
-    }
-    internal class Edge2
-    {
-        public int First { get; set; }
-        public int Second { get; set; }
-        public int Weight { get; set; }
+            //Undefined.Solution();
+
+        }
     }
 }
