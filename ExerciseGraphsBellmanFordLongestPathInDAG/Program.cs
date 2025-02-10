@@ -11,9 +11,13 @@ namespace ExerciseGraphsBellmanFordLongestPathInDAG
         static void Main(string[] args)
         {
             //MostReliablePath.Solution();
+
+            //CheapTownTour.Solution();
         }
+
+        
     }
-    internal class Edge1
+    internal class Edge2
     {
         public int First { get; set; }
         public int Second { get; set; }
