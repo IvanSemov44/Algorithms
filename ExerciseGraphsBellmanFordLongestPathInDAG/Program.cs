@@ -1,6 +1,4 @@
-﻿using Wintellect.PowerCollections;
-
-namespace ExerciseGraphsBellmanFordLongestPathInDAG
+﻿namespace ExerciseGraphsBellmanFordLongestPathInDAG
 {
     //https://judge.softuni.org/Contests/Practice/DownloadResource/36965
     internal class Program
@@ -14,7 +12,8 @@ namespace ExerciseGraphsBellmanFordLongestPathInDAG
             //Undefined.Solution();
 
             //BigTrip.Solution();
-            
+
+            //CableNetwork.Solution();
         }
     }
 }
