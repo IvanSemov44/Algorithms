@@ -1,5 +1,4 @@
-﻿using System.Security;
-using Wintellect.PowerCollections;
+﻿using Wintellect.PowerCollections;
 
 namespace ExerciseGraphsBellmanFordLongestPathInDAG
 {
@@ -14,6 +13,8 @@ namespace ExerciseGraphsBellmanFordLongestPathInDAG
 
             //Undefined.Solution();
 
+            //BigTrip.Solution();
+            
         }
     }
 }
