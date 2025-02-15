@@ -15,7 +15,7 @@ namespace ExerciseGraphsBellmanFordLongestPathInDAG
 
             for (int node = 0; node < graph.Length; node++)
                 graph[node] = new List<Edge>();
-
+                
             for (int i = 0; i < edges; i++)
             {
                 var edgeData = Console.ReadLine().Split();

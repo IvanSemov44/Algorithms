@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphsBellman-FordAndLonges
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseGraphsBellmanFordLongestPathInDAG", "ExerciseGraphsBellmanFordLongestPathInDAG\ExerciseGraphsBellmanFordLongestPathInDAG.csproj", "{0A63860B-1F10-4144-9DD2-937E933A96FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphsStronglyConnectedComponentsMaxFlow", "GraphsStronglyConnectedComponentsMaxFlow\GraphsStronglyConnectedComponentsMaxFlow.csproj", "{78DC2150-1740-4CC5-A994-835544C8B68E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{0A63860B-1F10-4144-9DD2-937E933A96FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A63860B-1F10-4144-9DD2-937E933A96FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A63860B-1F10-4144-9DD2-937E933A96FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DC2150-1740-4CC5-A994-835544C8B68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DC2150-1740-4CC5-A994-835544C8B68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DC2150-1740-4CC5-A994-835544C8B68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DC2150-1740-4CC5-A994-835544C8B68E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
