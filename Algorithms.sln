@@ -35,7 +35,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseGraphsStronglyConne
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgorithmsFundamentals", "AlgorithmsFundamentals", "{34209D8B-5FDC-4E66-83A8-CA34F82FD3D4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgorithmsAdvance", "AlgorithmsAdvance", "{04D403B8-584F-493F-8167-64A7E2328242}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgorithmsAdvanced", "AlgorithmsAdvanced", "{04D403B8-584F-493F-8167-64A7E2328242}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

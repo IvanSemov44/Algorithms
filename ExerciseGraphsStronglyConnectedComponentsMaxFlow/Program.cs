@@ -6,7 +6,8 @@
         {
             //https://judge.softuni.org/Contests/Practice/DownloadResource/36967
             //ElectricalSubstationNetwork.Solution();
-        }
 
+            //MaximumTasksAssignment.Solution();
+        }
     }
 }
