@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //https://judge.softuni.org/Contests/Practice/DownloadResource/36967
+            //ElectricalSubstationNetwork.Solution();
         }
+
     }
 }
