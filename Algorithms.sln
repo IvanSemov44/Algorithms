@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecurtionAndBackTracking", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinatorialProblems", "CombinatorialProblems\CombinatorialProblems.csproj", "{4E507E9F-4088-4009-9218-E964F26C343B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_RecursionAndCombinatorialProblems", "Exercise_RecursionAndCombinatorialProblems\Exercise_RecursionAndCombinatorialProblems.csproj", "{03534DEF-6853-46F7-9CA7-186586931C92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciseRecursionAndCombinatorialProblems", "Exercise_RecursionAndCombinatorialProblems\ExerciseRecursionAndCombinatorialProblems.csproj", "{03534DEF-6853-46F7-9CA7-186586931C92}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchingSortingAndGreedyAlgorithms", "SearchingSortingAndGreedyAlgorithms\SearchingSortingAndGreedyAlgorithms.csproj", "{B3D956DF-B2BF-4A0E-9CA2-9758BEE342E9}"
 EndProject
@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphTheoryTraversalAndShor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolutionsFromCodewars", "SolutionsFromCodewars\SolutionsFromCodewars.csproj", "{76310809-28FE-4085-BD38-34B704A966F5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_GraphTheoryTraversalAndShortestPaths", "Exercise_GraphTheoryTraversalAndShortestPaths\Exercise_GraphTheoryTraversalAndShortestPaths.csproj", "{739D51AE-0FDE-412F-9FEA-F7D2B89A2A6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciseGraphTheoryTraversalAndShortestPaths", "Exercise_GraphTheoryTraversalAndShortestPaths\ExerciseGraphTheoryTraversalAndShortestPaths.csproj", "{739D51AE-0FDE-412F-9FEA-F7D2B89A2A6C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroductionToDynamicProgramming", "IntroductionToDynamicProgramming\IntroductionToDynamicProgramming.csproj", "{7DCBEC11-2E4F-434C-A9BF-21AB5911C708}"
 EndProject
@@ -25,11 +25,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExamPreparation", "ExamPrep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphsDijkstraMST", "GraphsDijkstraMST\GraphsDijkstraMST.csproj", "{385E79AA-C6C4-4584-8799-31D4293141A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphsBellman-FordAndLongestPathinDAG", "GraphsBellman-FordAndLongestPathinDAG\GraphsBellman-FordAndLongestPathinDAG.csproj", "{B7F7B697-285A-4802-A47E-69C2D4339783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphsBellmanFordAndLongestPathinDAG", "GraphsBellman-FordAndLongestPathinDAG\GraphsBellmanFordAndLongestPathinDAG.csproj", "{B7F7B697-285A-4802-A47E-69C2D4339783}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseGraphsBellmanFordLongestPathInDAG", "ExerciseGraphsBellmanFordLongestPathInDAG\ExerciseGraphsBellmanFordLongestPathInDAG.csproj", "{0A63860B-1F10-4144-9DD2-937E933A96FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciseGraphsBellmanFordLongestPathInDAG", "ExerciseGraphsBellmanFordLongestPathInDAG\ExerciseGraphsBellmanFordLongestPathInDAG.csproj", "{0A63860B-1F10-4144-9DD2-937E933A96FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphsStronglyConnectedComponentsMaxFlow", "GraphsStronglyConnectedComponentsMaxFlow\GraphsStronglyConnectedComponentsMaxFlow.csproj", "{78DC2150-1740-4CC5-A994-835544C8B68E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphsStronglyConnectedComponentsMaxFlow", "GraphsStronglyConnectedComponentsMaxFlow\GraphsStronglyConnectedComponentsMaxFlow.csproj", "{78DC2150-1740-4CC5-A994-835544C8B68E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseGraphsStronglyConnectedComponentsMaxFlow", "ExerciseGraphsStronglyConnectedComponentsMaxFlow\ExerciseGraphsStronglyConnectedComponentsMaxFlow.csproj", "{D752618A-7D47-44C4-84FD-0DB78B53E4D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgorithmsFundamentals", "AlgorithmsFundamentals", "{34209D8B-5FDC-4E66-83A8-CA34F82FD3D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgorithmsAdvance", "AlgorithmsAdvance", "{04D403B8-584F-493F-8167-64A7E2328242}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,9 +99,29 @@ Global
 		{78DC2150-1740-4CC5-A994-835544C8B68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78DC2150-1740-4CC5-A994-835544C8B68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78DC2150-1740-4CC5-A994-835544C8B68E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D752618A-7D47-44C4-84FD-0DB78B53E4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D752618A-7D47-44C4-84FD-0DB78B53E4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D752618A-7D47-44C4-84FD-0DB78B53E4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D752618A-7D47-44C4-84FD-0DB78B53E4D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28245670-4951-4863-B3CD-D65F3C912EDF} = {34209D8B-5FDC-4E66-83A8-CA34F82FD3D4}
+		{4E507E9F-4088-4009-9218-E964F26C343B} = {34209D8B-5FDC-4E66-83A8-CA34F82FD3D4}
+		{03534DEF-6853-46F7-9CA7-186586931C92} = {34209D8B-5FDC-4E66-83A8-CA34F82FD3D4}
+		{B3D956DF-B2BF-4A0E-9CA2-9758BEE342E9} = {34209D8B-5FDC-4E66-83A8-CA34F82FD3D4}
+		{96B5608A-49B9-4F00-B655-8C935C29C764} = {34209D8B-5FDC-4E66-83A8-CA34F82FD3D4}
+		{739D51AE-0FDE-412F-9FEA-F7D2B89A2A6C} = {34209D8B-5FDC-4E66-83A8-CA34F82FD3D4}
+		{7DCBEC11-2E4F-434C-A9BF-21AB5911C708} = {34209D8B-5FDC-4E66-83A8-CA34F82FD3D4}
+		{6F36D1D8-B43B-4D31-9BEE-A24B10913CA3} = {34209D8B-5FDC-4E66-83A8-CA34F82FD3D4}
+		{329B2B43-C1B0-4E69-8C6C-E104F0C78F48} = {34209D8B-5FDC-4E66-83A8-CA34F82FD3D4}
+		{385E79AA-C6C4-4584-8799-31D4293141A7} = {04D403B8-584F-493F-8167-64A7E2328242}
+		{B7F7B697-285A-4802-A47E-69C2D4339783} = {04D403B8-584F-493F-8167-64A7E2328242}
+		{0A63860B-1F10-4144-9DD2-937E933A96FC} = {04D403B8-584F-493F-8167-64A7E2328242}
+		{78DC2150-1740-4CC5-A994-835544C8B68E} = {04D403B8-584F-493F-8167-64A7E2328242}
+		{D752618A-7D47-44C4-84FD-0DB78B53E4D1} = {04D403B8-584F-493F-8167-64A7E2328242}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B7F169DA-AF3F-4DA5-92A0-E8520BED9D66}
