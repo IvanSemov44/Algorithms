@@ -1,4 +1,5 @@
-﻿namespace ExerciseGraphsStronglyConnectedComponentsMaxFlow
+﻿
+namespace ExerciseGraphsStronglyConnectedComponentsMaxFlow
 {
     internal class Program
     {
@@ -8,6 +9,9 @@
             //ElectricalSubstationNetwork.Solution();
 
             //MaximumTasksAssignment.Solution();
+
+            FindBiConnectedComponents.Solution();
         }
+
     }
 }
