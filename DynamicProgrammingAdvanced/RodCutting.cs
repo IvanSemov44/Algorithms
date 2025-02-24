@@ -39,7 +39,7 @@
                 return 0;
 
             if (memo[length] != 0)
-                return price[length];
+                return memo[length];
 
             var bestPrice = price[length];
             var bestCombo = length;
