@@ -6,6 +6,8 @@
         {
             //https://judge.softuni.org/Contests/Practice/DownloadResource/36968
             //RodCutting.Solution();
+
+            //Knapsack.Solution();
         }
     }
 }

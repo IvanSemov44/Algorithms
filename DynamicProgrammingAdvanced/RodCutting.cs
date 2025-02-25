@@ -4,7 +4,7 @@
     {
         private static int[] memo;
         private static int[] prev;
-
+         
         public static void Solution()
         {
             var price = Console.ReadLine()
