@@ -1,6 +1,5 @@
 ﻿namespace ExamPreparationAdvance
 {
-
     internal class Program
     {
         static void Main(string[] args)
@@ -9,10 +8,11 @@
             //LeTourDeSofia.Solution();
             //LeTourDeSofiaFromVideo.Solution();
 
-
             //https://judge.softuni.org/Contests/Practice/DownloadResource/12102
             //RoadTrip.Solution();
 
+            //https://judge.softuni.org/Contests/Practice/DownloadResource/12099
+            //ChainLightning.Solution();
         }
     }
 }
