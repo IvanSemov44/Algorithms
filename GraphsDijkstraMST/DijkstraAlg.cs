@@ -94,7 +94,7 @@ namespace GraphsDijkstraMST
                 while (currentNode != -1)
                 {
                     path.Push(currentNode);
-                    currentNode = parent[currentNode]; ;
+                    currentNode = parent[currentNode]; 
                 }
 
                 Console.WriteLine(string.Join(" ", path));
@@ -104,7 +104,7 @@ namespace GraphsDijkstraMST
         private static void ReadGraph()
         {
             var edgesCount = int.Parse(Console.ReadLine());
-
+             
             for (int i = 0; i < edgesCount; i++)
             {
                 var edgeArgs = Console.ReadLine()
