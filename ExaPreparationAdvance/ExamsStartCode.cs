@@ -26,6 +26,9 @@ namespace ExamPreparationAdvance
             //https://judge.softuni.org/Contests/Practice/DownloadResource/24978
             //TrainsPartTwo.Solution();
 
+            //https://judge.softuni.org/Contests/Practice/DownloadResource/24979
+            //Creep.Solution();
+
             //----------------------------
 
         }
