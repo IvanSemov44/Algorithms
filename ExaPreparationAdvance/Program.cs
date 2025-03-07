@@ -4,9 +4,7 @@
     {
         static void Main(string[] args)
         {
-           // ExamsStartCode.Run();
-
-            
+            // ExamsStartCode.Run();
         }
     }
 }

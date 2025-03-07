@@ -20,6 +20,8 @@ namespace ExamPreparationAdvance
             //ChainLightning.Solution();
             //----------------------------
 
+
+
             //----------------------------
             //Exam - 8 October 2022
 
@@ -29,6 +31,8 @@ namespace ExamPreparationAdvance
             //https://judge.softuni.org/Contests/Practice/DownloadResource/24979
             //Creep.Solution();
 
+            //https://judge.softuni.org/Contests/Practice/DownloadResource/24980
+            //Code.Solution();
             //----------------------------
 
         }
