@@ -1,4 +1,4 @@
-﻿namespace ExamPreparationAdvance
+﻿namespace ExamPreparationAdvance.ExamPrep
 {
     internal class Edge
     {
