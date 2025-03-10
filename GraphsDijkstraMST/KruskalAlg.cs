@@ -29,7 +29,7 @@
             var sortedEdges = edges
                 .OrderBy(e => e.Weight)
                 .ToArray();
-
+            ;
             foreach (var edge in sortedEdges)
             {
                 var firstNodeRoot = FindRoot(edge.First);
