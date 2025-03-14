@@ -38,10 +38,12 @@ namespace ExamPreparationAdvance
 
             //----------------------------
             //Regular Exam - 19 August 2023
-            
+
             //https://softuni.bg/downloads/svn/Algorithms-with-Csharp/Algorithms-Advanced/Jul-2023/09.%20Exam/01.%20Eco-Friendly%20Highway%20Construction.docx
             //EcoFriendlyHighwayConstruction.Solution();
-            
+
+            //https://softuni.bg/downloads/svn/Algorithms-with-Csharp/Algorithms-Advanced/Jul-2023/09.%20Exam/02.%20Social%20Media%20Tracker.docx
+            //SocialMediaTracker.Solution();
             //----------------------------
 
         }
