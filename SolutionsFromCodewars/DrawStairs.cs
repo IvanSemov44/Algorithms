@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace SolutionsFromCodewars
 {
     //https://www.codewars.com/kata/5b4e779c578c6a898e0005c5/
-    internal class DrawStairs
+    internal static class DrawStairs
     {
         public static void Solution()
         {

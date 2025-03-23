@@ -48,20 +48,13 @@
                     if (item.Weight > capacity)
                     {
                         dp[row, capacity] = excluding;
+                        used[row, capacity] = true;
                         continue;
                     }
 
                     var including = item.Value + dp[row - 1, capacity - item.Weight];
 
-                    if (including > excluding)
-                    {
-                        dp[row, capacity] = including;
-                        used[row, capacity] = true;
-                    }
-                    else
-                    {
-                        dp[row, capacity] = excluding;
-                    }
+                    dp[row, capacity] = Math.Max(including, excluding);
                 }
             }
 
@@ -88,7 +81,7 @@
 
             Console.WriteLine($"Total weight: {totalWeight}");
             Console.WriteLine($"Total value: {dp[items.Count, maxCapacity]}");
-            Console.WriteLine(string.Join(Environment.NewLine, usedItems));
+    
         }
     }
 }
