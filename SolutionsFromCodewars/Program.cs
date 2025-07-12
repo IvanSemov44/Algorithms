@@ -6,6 +6,7 @@
         {
             Console.WriteLine(JosSurvivor.Solution(7, 3));
 
+
             Console.WriteLine(JosSurvivor.Solution(100,1));
         }
     }
