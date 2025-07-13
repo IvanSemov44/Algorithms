@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseDynamicProgrammingA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamPreparationAdvance", "ExaPreparationAdvance\ExamPreparationAdvance.csproj", "{6ECE90E9-4097-49D8-BB0A-F9CF126D6055}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeWarTest", "CodeWarTest\CodeWarTest.csproj", "{F69B3D29-92E6-4753-990E-DC0F13091931}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{6ECE90E9-4097-49D8-BB0A-F9CF126D6055}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ECE90E9-4097-49D8-BB0A-F9CF126D6055}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ECE90E9-4097-49D8-BB0A-F9CF126D6055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69B3D29-92E6-4753-990E-DC0F13091931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69B3D29-92E6-4753-990E-DC0F13091931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69B3D29-92E6-4753-990E-DC0F13091931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69B3D29-92E6-4753-990E-DC0F13091931}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
