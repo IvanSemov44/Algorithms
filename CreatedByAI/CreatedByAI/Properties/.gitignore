@@ -1,0 +1,140 @@
+# General
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]est[Rr]esults/
+*.user
+*.suo
+*.[Cc]ache
+*.vs
+*.vscode
+*.userosscache
+*.sln.docstates
+*.db
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+node_modules/
+bower_components/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vsconfig
+.vs/
+.vscode/
+*.swp
+*.swo
+
+# NuGet
+[Nn]u[Pp]ackages/
+*.nupkg
+nuget.exe
+.nuget/
+packages/
+**/packages/repositories.config
+
+# Entity Framework
+Migrations/
+App_Data/
+*.mdf
+*.ldf
+*.sdf
+
+# ASP.NET
+App_Data/
+App_Code/
+App_GlobalResources/
+App_LocalResources/
+App_WebReferences/
+App_Browsers/
+aspnet_client/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Azure
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Logs
+*.log
+*.etl
+*.har
+
+# Rider
+.idea/
+*.sln.iml
+
+# CodeRush
+.cr/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory for instrumentation tools
+coverage/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# JetBrains Rider
+*.sln.iml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# DNX
+project.lock.json
+artifacts/
+
+# SQL Server files
+App_Data/*.mdf
+App_Data/*.ldf
+
+# Entity Framework Core
+appsettings.Development.json
