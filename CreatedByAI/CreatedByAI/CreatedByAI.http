@@ -1,6 +1,0 @@
-@CreatedByAI_HostAddress = http://localhost:5114
-
-GET {{CreatedByAI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
