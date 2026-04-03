@@ -51,6 +51,8 @@ Each file follows this format:
 | # | Title | Difficulty | Time | Space |
 |---|---|---|---|---|
 | 1 | [Two Sum](ProblemSolving/LeetCode/Easy/0001_TwoSum.cs) | Easy | O(n) | O(n) |
+| 2 | [Add Two Numbers](ProblemSolving/LeetCode/Medium/0002_AddTwoNumbers.cs) | Medium | O(max(m,n)) | O(max(m,n)) |
+| 3 | [Longest Substring Without Repeating Characters](ProblemSolving/LeetCode/Medium/0003_LongestSubstringWithoutRepeatingCharacters.cs) | Medium | O(n) | O(min(m,n)) |
 
 ## Tech Stack
 
